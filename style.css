@@ -167,6 +167,10 @@ a {
     height: 200px;
 }
 
+.information img {
+    object-fit: cover;
+}
+
 /* QUOTE SECTION */
 
 .quote-section {
@@ -231,4 +235,22 @@ a {
 
 .cta-text {
     font-size: large;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 20vw;
+    background-color: #2b1601;
+    color: rgb(248, 244, 225);
+    font-size: 16px;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: white;
 }
