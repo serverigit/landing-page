@@ -85,9 +85,9 @@ a {
     height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: cen            <!-- <button class="cta-button">Contact Us</button> -->
-    ter;
+    justify-content: center;
     align-items: flex-start;
+    gap: 24px;
 }
 
 .hero-main {
@@ -95,7 +95,7 @@ a {
     font-weight: bolder;
 }
 
-.hero-text p {
+.hero-secondary-text {
     font-size: 20px;
 }
 
